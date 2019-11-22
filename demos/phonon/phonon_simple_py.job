@@ -41,7 +41,7 @@ input
 
     ; how is the temperature/field variable named
     ; the S(q,w) model? Here, "g_T" and "g_H" are
-    ; global variables in the "my_sqw.py" script.
+    ; global variables in the given python script.
     sqw_temp_var    "g_T"
 ;   sqw_field_var   "g_H"
 
