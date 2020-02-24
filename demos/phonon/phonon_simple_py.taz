@@ -50,7 +50,7 @@
 		<scan_2d>0</scan_2d>
 		<scanfile>test.dat</scanfile>
 		<sqw>py</sqw>
-		<sqw_conf>sqw_phonon.py</sqw_conf>
+		<sqw_conf>./sqw_phonon.py</sqw_conf>
 		<sqw_errors>
 			<g_G>0</g_G>
 			<g_HWHM>0</g_HWHM>
