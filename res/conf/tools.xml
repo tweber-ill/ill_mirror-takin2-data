@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tools>
+	<entry_0>
+		<type>separator</type>
+	</entry_0>
+
+
+	<entry_1>
+		<type>program</type>
+		<name>Polarisation Vectors...</name>
+		<program>takin_pol</program>
+	</entry_1>
+
+	<num_entries>2</num_entries>
+</tools>

@@ -43,3 +43,4 @@ res/fonts/*
 !res/data/.dir
 !res/doc/.dir
 !res/fonts/.dir
+!res/conf/tools.xml
