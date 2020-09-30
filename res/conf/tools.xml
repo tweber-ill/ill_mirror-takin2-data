@@ -12,5 +12,18 @@
 		<program>takin_pol</program>
 	</entry_1>
 
-	<num_entries>2</num_entries>
+	<entry_2>
+		<type>program</type>
+		<name>Nuclear Stucture Factors...</name>
+		<program>takin_structfact</program>
+	</entry_2>
+
+
+	<entry_3>
+		<type>program</type>
+		<name>Magnetic Stucture Factors...</name>
+		<program>takin_magstructfact</program>
+	</entry_3>
+
+	<num_entries>4</num_entries>
 </tools>
