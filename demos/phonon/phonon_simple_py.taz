@@ -36,7 +36,7 @@
 		<h_to>4.198700e+00</h_to>
 		<h_to_2>9.300000e-01</h_to_2>
 		<has_scanfile>1</has_scanfile>
-		<instr>instr.taz</instr>
+		<instr>./instr.taz</instr>
 		<k_from>3.798700e+00</k_from>
 		<k_to>3.798300e+00</k_to>
 		<k_to_2>1.070000e+00</k_to_2>
@@ -48,7 +48,7 @@
 		<neutron_count>1000</neutron_count>
 		<sample_step_count>1</sample_step_count>
 		<scan_2d>0</scan_2d>
-		<scanfile>test.dat</scanfile>
+		<scanfile>./test.dat</scanfile>
 		<sqw>py</sqw>
 		<sqw_conf>./sqw_phonon.py</sqw_conf>
 		<sqw_errors>

@@ -38,7 +38,7 @@ res/icons/*
 !res/icons/q.svg
 !res/icons/takin.svg
 !res/.dir
-res/fonts/*
+res/fonts/**
 !res/icons/.dir
 !res/data/.dir
 !res/doc/.dir
