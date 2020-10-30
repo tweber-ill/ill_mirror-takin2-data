@@ -44,3 +44,4 @@ res/fonts/**
 !res/doc/.dir
 !res/fonts/.dir
 !res/conf/tools.xml
+.DS_Store
