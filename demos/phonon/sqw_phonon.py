@@ -74,7 +74,11 @@ def DHO(E, T, E0, hwhm, amp):
 # -----------------------------------------------------------------------------
 
 # global variables which can be accessed / changed by Takin
-g_G = np.array([4., 4., 0.])	# Bragg peak
+#g_G = np.array([4., 4., 0.])	# Bragg peak
+
+g_h = 4.		# Bragg peak (hkl)
+g_k = 4.
+g_l = 0.
 
 g_amp = 20.		# amplitude of sinusoidal dispersion
 g_freq = np.pi/2.	# frequency of sinusoidal dispersion
@@ -94,7 +98,7 @@ g_bose_cut = 0.02	# cutoff energy for Bose factor
 # the init function is called after Takin has changed a global variable (optional)
 #
 def TakinInit():
-	print("Init: G=" + repr(g_G) + ", T=" + repr(g_T))
+	print("Init: G=(%.2f %.2f %.2f), T=%.2f" % (g_h, g_k, g_l, g_T))
 
 
 #
@@ -105,8 +109,9 @@ def TakinDisp(h, k, l):
 	w_peak = 1.		# weight
 
 	try:
-		Q = np.array([h,k,l])
-		q = la.norm(Q - g_G)
+		Q = np.array([h, k, l])
+		G = np.array([g_h, g_k, g_l])
+		q = la.norm(Q - G)
 		E_peak = disp_phonon(q, g_amp, g_freq, g_offs)
 	except ZeroDivisionError:
 		return [0., 0.]
