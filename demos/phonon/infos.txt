@@ -1,0 +1,2 @@
+Test phonon measurement at IN3 using a sample provided by R. S. Perry.
+See: https://www.ill.eu/users/instruments/instruments-list/in3/
