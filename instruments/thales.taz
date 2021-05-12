@@ -44,7 +44,7 @@
 		<pop_det_h>5.000000e+00</pop_det_h>
 		<pop_det_rect>1</pop_det_rect>
 		<pop_det_w>1.500000e+00</pop_det_w>
-		<pop_dist_ana_det>6.400000e+01</pop_dist_ana_det>
+		<pop_dist_ana_det>7.400000e+01</pop_dist_ana_det>
 		<pop_dist_mono_sample>2.000000e+02</pop_dist_mono_sample>
 		<pop_dist_sample_ana>125.67</pop_dist_sample_ana>
 		<pop_dist_src_mono>2.000000e+02</pop_dist_src_mono>
