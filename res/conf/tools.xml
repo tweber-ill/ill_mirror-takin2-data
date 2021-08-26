@@ -70,4 +70,14 @@
 		<name>Molecular Dynamics...</name>
 		<program>takin_moldyn</program>
 	</entry_12>
+
+	<entry_13>
+		<type>separator</type>
+	</entry_13>
+
+	<entry_14>
+		<type>program</type>
+		<name>TAS Path-Finding...</name>
+		<program>takin_taspaths</program>
+	</entry_14>
 </tools>
