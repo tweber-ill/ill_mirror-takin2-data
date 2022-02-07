@@ -51,39 +51,39 @@
 		<program>takin_magstructfact</program>
 	</entry_8>
 
-	<entry_8>
+	<entry_9>
 		<type>program</type>
 		<name>Magnetic Dynamics...</name>
 		<program>takin_magdyn</program>
-	</entry_8>
-
-	<entry_9>
-		<type>separator</type>
 	</entry_9>
 
 	<entry_10>
-		<type>program</type>
-		<name>Polarisation Vectors...</name>
-		<program>takin_pol</program>
+		<type>separator</type>
 	</entry_10>
 
 	<entry_11>
-		<type>separator</type>
+		<type>program</type>
+		<name>Polarisation Vectors...</name>
+		<program>takin_pol</program>
 	</entry_11>
 
 	<entry_12>
-		<type>program</type>
-		<name>Molecular Dynamics...</name>
-		<program>takin_moldyn</program>
+		<type>separator</type>
 	</entry_12>
 
 	<entry_13>
-		<type>separator</type>
+		<type>program</type>
+		<name>Molecular Dynamics...</name>
+		<program>takin_moldyn</program>
 	</entry_13>
 
 	<entry_14>
+		<type>separator</type>
+	</entry_14>
+
+	<entry_15>
 		<type>program</type>
 		<name>TAS Pathfinding...</name>
 		<program>takin_taspaths</program>
-	</entry_14>
+	</entry_15>
 </tools>
